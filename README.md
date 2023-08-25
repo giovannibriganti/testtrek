@@ -1,6 +1,6 @@
 # TestTrek: Statistical Test Recommender
 
-![TestTrek Logo](images/logo.png)) 
+![TestTrek Logo](man/figures/logo.png)) 
 
 `TestTrek` is an R package designed to help researchers and data analysts choose the most appropriate statistical test for their data. Based on the nature of your variables and your dataset's characteristics, `TestTrek` provides recommendations for statistical tests, effect sizes, and post hoc tests when necessary.
 
