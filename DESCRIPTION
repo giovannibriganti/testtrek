@@ -1,0 +1,24 @@
+Package: TestTrek
+Type: Package
+Title: Automated Statistical Test Recommender
+Version: 0.1.0
+Author: Giovanni Briganti
+Maintainer: Giovanni Briganti <giovanni.briganti@hotmail.comL>
+Description: TestTrek provides an automated recommendation system for choosing 
+    the appropriate statistical tests based on the nature of the data. It covers 
+    both independent and dependent sample scenarios, and integrates a wide range 
+    of common statistical tests, ensuring that users can navigate the complex 
+    landscape of statistical testing with ease.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.5.0),
+    car
+Suggests:
+    roxygen2,
+    devtools,
+    knitr,
+    rmarkdown
+RoxygenNote: 7.2.3
+VignetteBuilder: knitr

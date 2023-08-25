@@ -1,0 +1,55 @@
+---
+title: "Introduction to TestTrek: Statistical Test Recommendations"
+author: "Giovanni Briganti"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to TestTrek}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
+---
+
+## Introduction
+
+`TestTrek` is a comprehensive R package designed to simplify the process of selecting the most appropriate statistical tests. Whether dealing with independent or dependent samples, `TestTrek` offers recommendations on statistical tests, effect sizes, and even post-hoc tests when necessary. 
+
+## Installation
+
+You can install `TestTrek` from your local setup (as it's not on CRAN yet):
+
+```{r eval=FALSE}
+# Install devtools if not already installed
+# install.packages("devtools")
+
+# Install TestTrek
+devtools::install_local("/path_to_your_package/TestTrek")
+```
+
+Replace `/path_to_your_package/` with the actual path to your `TestTrek` package.
+
+## Using TestTrek
+
+### Recommending Tests for Independent Samples
+
+To get recommendations for independent samples, simply provide your dataset and the two variables of interest:
+
+```{r eval=FALSE}
+library(TestTrek)
+
+# Example usage with fictional data
+# data <- read.csv("your_dataset.csv")
+# recommend_test_independent(data, "variable1", "variable2")
+```
+
+### Recommending Tests for Dependent Samples
+
+For dependent samples, the process is equally straightforward:
+
+```{r eval=FALSE}
+# Example usage with fictional data
+# recommend_test_dependent(data, "variable1", "variable2")
+```
+
+## Conclusion
+
+Selecting the right statistical test can often be a daunting task, especially for those not deeply versed in statistics. `TestTrek` aims to bridge this gap, providing clear recommendations and easing the analysis process. We hope you find `TestTrek` beneficial for your statistical adventures!
