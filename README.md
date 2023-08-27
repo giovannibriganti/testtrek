@@ -10,6 +10,10 @@
 - **Effect Size Calculations**: Recommends the most appropriate effect size metric for the given data.
 - **Post Hoc Test Guidance**: For certain tests like ANOVA, recommends suitable post hoc tests.
 
+## License
+
+This project is licensed under GPL-3
+
 ## Installation
 
 You can install the development version of `TestTrek` from GitHub using `devtools`:
@@ -22,6 +26,3 @@ install.packages("devtools")
 devtools::install_github("giovannibriganti/TestTrek")
 
 
-# License
-
-This project is licensed under GPL-3
