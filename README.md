@@ -20,3 +20,8 @@ install.packages("devtools")
 
 # Install TestTrek from GitHub
 devtools::install_github("giovannibriganti/TestTrek")
+
+
+# License
+
+This project is licensed under GPL-3
